@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page Saver – Privacy Policy</title>
+<style>
+  body { font: 16px/1.6 system-ui, "Segoe UI", Arial, sans-serif; color: #16181d; max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h2 { font-size: 20px; margin-top: 32px; }
+  .muted { color: #5f6672; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th, td { border: 1px solid #e3e6ea; padding: 8px 10px; text-align: start; vertical-align: top; }
+  th { background: #f6f7f9; }
+  a { color: #2563eb; }
+  hr { border: 0; border-top: 1px solid #e3e6ea; margin: 48px 0; }
+  [dir="rtl"] { text-align: right; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #15171b; color: #e8eaee; }
+    .muted { color: #9aa3af; }
+    th { background: #1c1f24; }
+    th, td { border-color: #30353d; }
+    a { color: #60a5fa; }
+  }
+</style>
+</head>
+<body>
+<h1>Page Saver – Privacy Policy</h1>
+<p class="muted">Last updated: November 19, 2026</p>
+<p>Page Saver is a Chrome extension that saves pages, recipes, videos and posts you choose, and can summarize them with AI. This policy explains what happens to your data.</p>
+
+<h2>The short version</h2>
+<ul>
+  <li><b>Everything you save stays on your computer</b>, in your browser's local storage. The developer has no server and never receives your saved items, your browsing, or any personal information.</li>
+  <li><b>No analytics, no tracking, no ads, no selling of data.</b></li>
+  <li>The only time content leaves your computer is if <b>you</b> choose to connect your own Google Gemini API key – then the text of an item you save is sent to Google to be summarized.</li>
+</ul>
+
+<h2>What the extension handles</h2>
+<table>
+  <tr><th>Data</th><th>When</th><th>Where it goes</th></tr>
+  <tr><td>Content of a page, post, video or image you save (title, text, link, images)</td><td>Only when you click save, use the right-click menu or press the shortcut</td><td>Stored locally in your browser (IndexedDB). Not sent to the developer.</td></tr>
+  <tr><td>Your settings and the number of items saved</td><td>Always</td><td>Stored locally (<code>chrome.storage</code>).</td></tr>
+  <tr><td>Your Gemini API key (optional)</td><td>Only if you enter one</td><td>Stored locally; sent only to Google, with each summary request.</td></tr>
+</table>
+<p>The extension does not read pages in the background. It only reads a page when you ask it to save something from it. On YouTube, Facebook and Instagram it also shows a save button or a confirmation message on the page.</p>
+
+<h2>AI summaries</h2>
+<ul>
+  <li><b>Local AI (Gemini Nano):</b> runs on your computer through Chrome's built-in AI. Nothing is sent anywhere.</li>
+  <li><b>Gemini API (optional):</b> if you connect your own API key, the text of a saved item is sent to Google's Gemini API to create the summary. Google's <a href="https://ai.google.dev/gemini-api/terms">Gemini API terms</a> and <a href="https://policies.google.com/privacy">privacy policy</a> apply to that request. On Google's free tier, Google may use submitted content to improve its products.</li>
+  <li>You can turn AI off completely in the settings.</li>
+</ul>
+
+<h2>Sharing</h2>
+<p>The developer does not collect, sell, share or transfer your data to anyone. The only third party that can receive content is Google, and only through the optional Gemini API key you provide yourself, as described above.</p>
+
+<h2>Your control</h2>
+<ul>
+  <li>Delete any saved item from the library at any time.</li>
+  <li>Export your items (Markdown or JSON) from the library.</li>
+  <li>Removing the extension deletes all of its locally stored data.</li>
+</ul>
+
+<h2>Children</h2>
+<p>Page Saver is not directed at children under 13.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the new version will be published at this address with a new "Last updated" date. If a future version adds a paid subscription, this policy will be updated to describe the license check before that version is released.</p>
+
+<h2>Contact</h2>
+<p>Questions: <a href="mailto:ilan.hazan@gmail.com">ilan.hazan@gmail.com</a></p>
+
+<hr>
+
+<div dir="rtl" lang="he">
+<h1>מדיניות פרטיות – Page Saver</h1>
+<p class="muted">עודכן לאחרונה: 19 בנובמבר 2026</p>
+<ul>
+  <li><b>כל מה שאתה שומר נשאר במחשב שלך</b>, באחסון המקומי של הדפדפן. למפתח אין שרת, והוא לא מקבל את הפריטים השמורים, את היסטוריית הגלישה או מידע אישי כלשהו.</li>
+  <li><b>אין אנליטיקס, אין מעקב, אין פרסומות ואין מכירת מידע.</b></li>
+  <li>התוסף קורא דף רק כשאתה מבקש לשמור ממנו משהו.</li>
+  <li><b>AI מקומי (Gemini Nano)</b> רץ על המחשב שלך, ושום דבר לא נשלח החוצה.</li>
+  <li><b>Gemini API (רשות):</b> אם תחבר מפתח API אישי של Google, הטקסט של פריט שנשמר יישלח ל-Google לצורך הסיכום, בכפוף לתנאים ולמדיניות הפרטיות של Google. בשכבה החינמית Google עשויה להשתמש בתוכן לשיפור המוצרים שלה. אפשר לכבות את ה-AI לגמרי בהגדרות.</li>
+  <li>אפשר למחוק ולייצא פריטים בכל עת. הסרת התוסף מוחקת את כל המידע שלו.</li>
+</ul>
+<p>שאלות: <a href="mailto:ilan.hazan@gmail.com">ilan.hazan@gmail.com</a></p>
+</div>
+</body>
+</html>
